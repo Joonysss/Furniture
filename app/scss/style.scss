@@ -201,6 +201,12 @@
   max-width: 694px;
   background-color: #fff;
   padding-top: 40px;
+  box-shadow: -2px 3px 0 0 #f2f2f2;
+  transition: transform 0.5s ease;
+  z-index: 9999;
+  &.rightside-menu--close {
+    transform: translateX(500%);
+  }
   &__close {
     margin-left: 50px;
     margin-bottom: 60px;
@@ -221,10 +227,24 @@
   }
 
   &__title {
+    position: relative;
     @extend %title-font;
     font-size: 36px;
     line-height: 51px;
     color: $title;
+    margin-bottom: 17px;
+    padding-bottom: 17px;
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      max-width: 252px;
+      height: 1px;
+      background-color: #6d7278;
+      margin: 0 auto;
+    }
   }
 
   &__text {
