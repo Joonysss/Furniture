@@ -402,3 +402,33 @@
     color: #707070;
   }
 }
+
+.decor {
+  padding: 170px 0 155px;
+  background-image: url('../images/decor-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__title {
+    position: relative;
+    @extend %title-font;
+    color: $title;
+    font-size: 60px;
+    line-height: 80px;
+    max-width: 730px;
+    padding-bottom: 22px;
+    margin-bottom: 22px;
+    &::after {
+      content: '';
+      position: absolute;
+      width: 200px;
+      height: 1px;
+      background-color: #6d7278;
+      bottom: 0;
+      left: 0;
+    }
+  }
+  &__text {
+    max-width: 540px;
+  }
+}
