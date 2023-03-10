@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Vadym Prokopchuk",
+  "author": "Yurii Kletsko",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.13",
@@ -21,5 +21,8 @@
     "mixitup": "^3.3.1",
     "sass": "^1.58.0",
     "slick-carousel": "^1.8.1"
+  },
+  "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7"
   }
 }
