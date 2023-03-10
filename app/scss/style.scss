@@ -632,5 +632,65 @@
   }
 }
 
-// About.html
+// About
 
+.about {
+  &__prev {
+    padding: 160px 0;
+    background-image: url(../images/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    text-align: center;
+    margin-top: -53px;
+  }
+
+  &__prev-title {
+    @extend %title-font;
+    color: $title;
+    font-size: 60px;
+    line-height: 80px;
+  }
+
+  &__content {
+    padding: 130px 0 40px;
+  }
+
+  &__title {
+    max-width: 822px;
+    margin-bottom: 22px;
+    padding-bottom: 22px;
+    @extend %title-font;
+    color: $title;
+    font-size: 36px;
+    line-height: 60px;
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      width: 200px;
+      height: 1px;
+      background: #6d7278;
+      left: 0;
+      bottom: 0;
+    }
+  }
+
+  &__text {
+    padding-left: 284px;
+    p {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__popup {
+    background-image: url('../images/popup-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    min-height: 414px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
