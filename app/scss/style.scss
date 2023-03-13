@@ -273,6 +273,8 @@
 .breadcrumbs {
   background: rgba(#dfdfdf, 0.5);
   padding: 13px 14px;
+  position: relative;
+  z-index: 999;
   &__item:not(:last-child)::after {
     content: '/';
     margin-left: -4px;
@@ -795,4 +797,10 @@
     grid-column: 2 span;
     grid-row: 2 span;
   }
+}
+
+// Contacts
+.map {
+  margin-top: -53px;
+  margin-bottom: 50px;
 }
