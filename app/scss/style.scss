@@ -1171,6 +1171,9 @@
   }
 
   &__arrow--disabled {
-    display: none;
+    opacity: 0;
+    pointer-events: none;
   }
 }
+
+// blog-single
