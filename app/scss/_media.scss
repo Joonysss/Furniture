@@ -5,6 +5,10 @@
   .collection__images {
     width: 100%;
   }
+
+  .map {
+    margin-top: 0;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -64,6 +68,10 @@
 
   .works-path__item--production {
     margin-left: 50px;
+  }
+
+  .contact__inner {
+    padding-left: 0;
   }
 }
 
@@ -133,6 +141,12 @@
   .partners__items {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .map {
+    iframe {
+      height: 300px;
+    }
+  }
 }
 
 @media (max-width: 650px) {
@@ -193,9 +207,20 @@
   .blog-box__img {
     width: 100%;
   }
+
+  .contact__form-input {
+    width: 100%;
+  }
+
+  .contact__form-btn {
+    width: 100%;
+  }
 }
 
 @media (max-width: 540px) {
+  .menu__list-link--active::after {
+    display: none;
+  }
   .logo {
     order: -1;
     position: relative;
