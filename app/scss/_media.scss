@@ -157,6 +157,22 @@
   .works-path__item {
     width: 100%;
   }
+
+  .blog-box__items {
+    display: block;
+  }
+
+  .blog-box__item {
+    margin-bottom: 20px;
+  }
+
+  .blog-box__img-link {
+    display: block;
+  }
+
+  .blog-box__img {
+    width: 100%;
+  }
 }
 
 @media (max-width: 540px) {
@@ -237,6 +253,11 @@
   .gallery__item:first-child {
     grid-column: 1;
     grid-row: 1;
+  }
+
+  .blog-box__item-title {
+    font-size: 22px;
+    line-height: 36px;
   }
 }
 
