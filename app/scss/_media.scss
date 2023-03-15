@@ -31,6 +31,14 @@
     margin: 0;
     padding: 6px 10px;
   }
+
+  .about__text {
+    padding-left: 0;
+  }
+
+  .about__content {
+    padding: 40px 0;
+  }
 }
 
 @media (max-width: 840px) {
@@ -112,6 +120,14 @@
 
   .gallery__btn {
     margin-bottom: 10px;
+  }
+
+  .about__prev {
+    padding: 80px 0;
+  }
+
+  .inspiration__images {
+    display: none;
   }
 }
 
@@ -258,6 +274,21 @@
   .blog-box__item-title {
     font-size: 22px;
     line-height: 36px;
+  }
+
+  .about__prev-title {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .inspiration__item-text,
+  .inspiration__num {
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .inspiration__item-text {
+    margin-right: 10px;
   }
 }
 
