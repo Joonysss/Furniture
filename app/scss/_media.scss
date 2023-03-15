@@ -1,3 +1,9 @@
+@media (max-width: 1700px) {
+  .contact-slider__img {
+    width: 100%;
+  }
+}
+
 @media (max-width: 1366px) {
   .collection {
     grid-template-columns: repeat(3, 1fr);
@@ -19,6 +25,9 @@
 
   .top__slider-img {
     height: 640px;
+  }
+  .contact-slider__img {
+    height: 240px;
   }
 }
 
@@ -346,5 +355,9 @@
     width: 100%;
     margin-left: 0;
     margin-top: 10px;
+  }
+
+  .contact-slider__img {
+    height: 310px;
   }
 }
